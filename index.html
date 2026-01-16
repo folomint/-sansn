@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insta Play All</title>
+<link rel="stylesheet" href="style.css">
+<script async src="https://www.instagram.com/embed.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>Instagram Reel Booster</h1>
+<p class="subtitle">Tap once • Real views • Safe</p>
+
+<input type="text" id="link" placeholder="Paste Instagram Reel Link">
+<select id="count">
+<option value="5">5</option>
+<option value="10">10</option>
+<option value="15">15</option>
+<option value="20">20</option>
+<option value="25">25</option>
+<option value="30">30</option>
+</select>
+
+<button class="playall" onclick="generate()">▶ PLAY ALL</button>
+
+<p class="hint">👇 Tap any video below to watch on Instagram</p>
+
+<div id="videos" class="grid"></div>
+
+<a href="about.html" class="next">Next</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
